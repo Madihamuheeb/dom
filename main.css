@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    
+
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
+#app{
+    width: 300px;
+text-align: center;
+    
+    background-color: #a70505;
+}
+input,button{
+    padding: 10px;
+    margin: 5px 0px;
+}
+#tasklist{
+    list-style-type: none;
+    padding: 0;
+}
+.task{
+    padding: 10px;
+    margin: 5px 0px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteBtn{
+    background-color: #a70505;
+    color: #f4f4f4;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-left: 50px;
+}
